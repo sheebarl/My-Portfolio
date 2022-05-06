@@ -221,7 +221,7 @@
   clear: both;   
   }
 
-  .assignment3{
+  .assignment1{
     float: left;
     width: 50%;
     padding: 10px;
@@ -229,16 +229,35 @@
 
   }
 
-  .assignment3 li{
+  .assignment1 li{
     font-size: 20px;
     margin-left: 5%;
     margin-top: 1%;
 }
 
-.assignment3 h3{
+.assignment1 h3{
     font-size: 30px;
     margin-left: 7%;
 }
+
+.assignment2 li{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.assignment2 h3{
+    font-size: 30px;
+    margin-left: 6%;
+}
+
+  .assignment2{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+
+  }
 
 .homelink{
     color:darkblue;
