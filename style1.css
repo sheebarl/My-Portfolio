@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+
+  /*---Introduction--*/
+  .main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image1.webp");
+    height: 100vh;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+  }
+
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top:10px ;
+    padding-left: 28%;
+    padding-right: 8%;
+    margin-top: -120px;
+}  
+
+.nav_list li{
+    display: inline-block;
+    color: #edf2f4;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 10px 50px;
+    
+}
+
+.nav_list li a{
+    color: #edf2f4;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav_list li a:hover{
+    color:#ff9f1c;
+    transition:all .5s;
+}
+
+.section-title{
+    text-align: center;
+    color: #ff9f1c;
+}
+
+.section-subtitle{
+    background-color:blue;
+    text-align: center;
+    color:pink;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+/*--AboutMe---*/
+
+
+  .about{
+      background-image: url("aboutme.jpg");
+      width:100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: 1%;
+      margin-top: 1%;
+  }
+
+  .about-me{
+    width: 940px;
+    right: 25px;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-color: #b9eee6;
+    bottom: 20px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    height: 100vh;
+  }
+
+  .about-me img{
+    height: auto;
+    border-radius: 50%;
+    margin-left: -100px;
+  }
+  
+  .aboutmediv{
+    width: 1150px;
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+  }
+
+  .section-title-about{
+    position: relative;
+    right: -120px;
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .section-subtitle-about{
+
+    width: 450px;
+    padding-left: 10px;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+  
+.she{
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+.my-skills{
+    background-color:rgba(238, 181, 181, 0.5);
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 750px;
+    position: relative;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top:10px ;
+    padding-left: 28%;
+    padding-right: 8%;
+    margin-top: -10px;
+}  
+
+.nav_list1 li{
+    display: inline-block;
+    color: #f4f0ed;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 30px 50px;
+    
+}
+
+.nav_list1 li a{
+    color: darkblue;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav_list1 li a:hover{
+    color:#ff9f1c;
+    transition:all .5s;
+}
+
+.section-subtitle1{
+    background-color:palevioletred ;
+    text-align: center;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+
+.homelink{
+    color:darkblue;
+    font-weight: bold;
+    text-decoration:underline;
+    transition:all .5s;
+    float:left;
+    font-size: 25px;
+}
+ 
+
+/*--Assignment--*/
+
+.my-skills{
+    height:100vh;
+}
+
+.section-title-skills{
+    text-align: center;
+}
+
+.assignment li{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.assignment h3{
+    font-size: 30px;
+    margin-left: 6%;
+}
+
+  .assignment{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+
+  }
+
+  .skills{
+    content: "";
+  display: table;
+  clear: both;   
+  }
+
+  .assignment3{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+
+  }
+
+  .assignment3 li{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.assignment3 h3{
+    font-size: 30px;
+    margin-left: 7%;
+}
+
+.homelink{
+    color:darkblue;
+    font-weight: bold;
+    text-decoration:underline;
+    transition:all .5s;
+    float:left;
+    font-size: 25px;
+}
+ 
+
+/* Course Project*/
+.my-work{
+    background-color:#b9eee6;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 100vh;
+    position: relative;
+}
+
+.section-subtitle-proj{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-indent: 3px;
+}
+
+.my-work h3{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.my-work a{
+    margin-left: 30px;
+}
+  
+.list{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.homelink{
+    color:darkblue;
+    font-weight: bold;
+    text-decoration:underline;
+    transition:all .5s;
+    float:left;
+    font-size: 25px;
+}
+
+.footer-link  {
+ 
+    margin-left: 50%;
+}
+  
+
+
